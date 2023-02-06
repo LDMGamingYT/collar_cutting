@@ -1,14 +1,20 @@
 modLoader = "javafml"
-loaderVersion = "[43,)"
+loaderVersion = "[41, 43]"
 license = "All Rights Reserved"
 
 [[mods]]
 modId = "collar_cutting"
-version = "0.1-DEV+1.19.2-MC"
-displayName = "Collar Cutting (Untame Wolves)"
-#displayURL="http://example.com/" #optional
-#logoFile="collar_cutting.png" #optional
+version = "1.0-BETA+1.19.2-MC"
+displayName = "Collar Cutting"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/collar-cutting"
+logoFile="logo.png"
 credits="Thanks to my Discord server for recommending this mod!"
 authors = "LDM"
+description = 'A lightweight, configurable mod that allows you to untame wolves (or cut their collars, hence the name) using shears, or any item you want!'
 
-description = 'A lightweight, configurable mod that allows you to untame wolves using shears!'
+[[dependencies.collar_cutting]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19, 1.19.2]"
+    ordering="NONE"
+    side="BOTH"
