@@ -1,10 +1,10 @@
 modLoader = "javafml"
-loaderVersion = "[41, 43]"
+loaderVersion = "[44,)"
 license = "All Rights Reserved"
 
 [[mods]]
 modId = "collar_cutting"
-version = "1.0-BETA+1.19.2-MC"
+version = "1.0-BETA+1.19.3-MC"
 displayName = "Collar Cutting"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/collar-cutting"
 logoFile="logo.png"
@@ -15,6 +15,6 @@ description = 'A lightweight, configurable mod that allows you to untame wolves 
 [[dependencies.collar_cutting]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19, 1.19.2]"
+    versionRange="[1.19.3]"
     ordering="NONE"
     side="BOTH"
