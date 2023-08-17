@@ -11,8 +11,6 @@ public class CollarCutting {
     public static final String MODID = "collar_cutting";
 
     public CollarCutting() {
-        //IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
         MinecraftForge.EVENT_BUS.register(this);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC, "collar_cutting-common.toml");
     }
